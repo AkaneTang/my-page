@@ -7,7 +7,16 @@ a{color: inherit;text-decoration: none;}
 img{max-width: 100%;max-height: 100%;}
 
 /* style */
-body{background-color: #eee;}    /* 给body添加背景色，会被浏览器扩展整个页面，而不仅是border的区域 */ 
+body{
+  background-color: #eee;
+  min-width: 100vw;
+  min-height: 100vh;
+  padding:1px;
+  background-image: url(背景.d0e38545.jpg);
+  background-repeat:repeat;
+  background-attachment:scroll;
+  background-position: center top;
+}    /* 给body添加背景色，会被浏览器扩展整个页面，而不仅是border的区域 */ 
 .globalHeader {
     margin: 20px;
 }
@@ -137,4 +146,4 @@ body{background-color: #eee;}    /* 给body添加背景色，会被浏览器扩�
   align-items: center;
 }
 
-/*# sourceMappingURL=style.81fdd82c.css.map */
+/*# sourceMappingURL=style.15643c33.css.map */
